@@ -315,7 +315,7 @@ export default function Nav() {
                                           className="nocancel relative w-[200px] h-[100px]"
                                         >
                                           <Image
-                                            src={i.img}
+                                            src={`/Tesla-Clone${i.img}`}
                                             fill
                                             alt={i.name}
                                             objectFit="cover"
@@ -391,7 +391,7 @@ export default function Nav() {
                                           className="nocancel relative w-[200px] h-[100px]"
                                         >
                                           <Image
-                                            src={i.img}
+                                            src={`/Tesla-Clone${i.img}`}
                                             fill
                                             alt={i.name}
                                             objectFit="cover"

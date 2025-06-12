@@ -25,7 +25,7 @@ export default function ModelY() {
             className="cancel relative w-full h-[91vh]"
           >
             <Image
-              src='/images/Model-Y-2-Hero-Desktop.avif'
+              src='/Tesla-Clone/images/Model-Y-2-Hero-Desktop.avif'
               fill
               objectFit="cover"
               alt="model y"
@@ -153,7 +153,7 @@ export default function ModelY() {
               fill
               objectFit="cover"
               alt="modely 2"
-              src='/images/modely2.avif'
+              src='/Tesla-Clone/images/modely2.avif'
             />
           </div>
         </div>
@@ -285,7 +285,7 @@ export default function ModelY() {
                       >
                         <Image
                           className="rounded-[7px] "
-                          src={i.img}
+                          src={`/Tesla-Clone${i.img}`}
                           alt={i.title}
                           fill
                           objectFit="cover"
@@ -422,7 +422,7 @@ export default function ModelY() {
           >
             <video
               ref={videoRef}
-              src="/videos/Model-Y-2-Starship-Desktop.webm"
+              src="/Tesla-Clone/videos/Model-Y-2-Starship-Desktop.webm"
               autoPlay
               muted
               loop

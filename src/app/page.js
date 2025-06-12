@@ -131,7 +131,7 @@ export default function Home() {
                           className='cancel'
                           objectFit="cover"
                           fill
-                          src={i.img}
+                          src={`/Tesla-Clone${i.img}`}
                           alt={i.name}
                           key={`${index}`}
                         />
@@ -298,7 +298,7 @@ export default function Home() {
                     className="cancel  rounded-[8px]"
                     objectFit="cover"
                     fill
-                    src={i.img}
+                    src={`/Tesla-Clone${i.img}`}
                     alt={i.name}
                   />
                 </div>
@@ -453,7 +453,7 @@ export default function Home() {
                     className="cancel  rounded-[8px]"
                     objectFit="cover"
                     fill
-                    src={i.img}
+                    src={`/Tesla-Clone${i.img}`}
                     alt={i.name}
                   />
                 </div>
@@ -595,7 +595,7 @@ function MapComponent() {
                 >
                   <Image
                     className="cancel rounded-tr-[5px] rounded-br-[5px]"
-                    src={i.img}
+                    src={`/Tesla-Clone${i.img}`}
                     alt={i.description}
                     fill
                     objectFit="cover"
@@ -610,7 +610,7 @@ function MapComponent() {
         width={1000}
         height={1500}
         className=" md:h-fit w-full px-10 rounded-[8px]"
-        src="/videos/map_component_video1.mp4"
+        src="/Tesla-Clone/videos/map_component_video1.mp4"
         autoPlay
         loop
       />
